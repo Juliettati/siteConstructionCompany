@@ -1,0 +1,876 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html {height: 100%}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: #363c43;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 0.8em;
+    line-height: 135%;
+    float: left;
+}
+a {   
+    color: #e7ffff; 
+    /*color:#131b2f;*/
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+a, a:hover {
+/*плавність зміни кольорів при наведенні в різних браузерах*/   
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    transition: all.6s ease;
+}
+.clear {
+    clear: both;/*відділяє одну частину сайту від іншої */
+}
+
+
+
+/*Стилі для першої сторінки*/
+
+
+
+/*Стилы для шапки */
+header #relative{
+    width: 98%;    
+    float: left;
+    padding: 1%;
+    background-color: rgba(61, 91, 163, 0.7);
+    border-bottom: 1px solid #e7ffff;
+}
+header  #relative2{
+    width: 98%;    
+    float: left;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid red;
+}
+
+header  #relative2 #logo {
+    width: 44%;
+    padding-top: 0.7%;
+    padding-left: 2%;
+    float: left;
+   
+    font-size: 1.8em;
+} 
+header  #relative2 #logo a{
+    color: #02effe;
+}
+
+header #logo {
+    width: 44%;
+    padding-top: 0.7%;
+    padding-left: 2%;
+    float: left;
+   
+    font-size: 1.8em;
+}
+header #logo a{
+    color: #ff7700;
+}
+header #logo a:hover {   
+    color: white;
+    font-size: 1.02em;
+    /*плавність зміни кольорів при наведенні в різних браузерах*/   
+    -moz-transition: all.8s ease;
+    -webkit-transition: all.8s ease;
+    -o-transition: all.8s ease;
+    -ms-transition: all.8s ease;
+    transition: all.8s ease;
+}
+header #menuHead {
+    width: 9%;
+     float: left;
+}
+header #menuHead div{
+    float: left;
+    margin-right: 2%;    
+    float: left;
+    padding: 8px;
+    padding-left: 4%;     
+    font-size: 1em;
+}
+header #menuHead div:hover{   
+    padding: 8px;   
+    font-size: 1.02em;
+    color: #89c9fb;
+    -moz-transition: all.8s ease;
+    -webkit-transition: all.8s ease;
+    -o-transition: all.8s ease;
+    -ms-transition: all.8s ease;
+    transition: all.8s ease;   
+}
+header #menuHead2 {
+    width: 13.5%;
+     float: left;
+}
+header #menuHead2 div{
+    float: left;
+    margin-right: 2%;    
+    float: left;
+    padding: 8px;
+    padding-left: 4%;     
+    font-size: 1em;
+}
+header #menuHead2 div:hover{   
+    padding: 8px;   
+    font-size: 1.02em;
+    color: #89c9fb;
+    -moz-transition: all.8s ease;
+    -webkit-transition: all.8s ease;
+    -o-transition: all.8s ease;
+    -ms-transition: all.8s ease;
+    transition: all.8s ease;    
+}
+header #regAuth {
+    width: 10%;
+     float: left;
+}
+header #regAuth div{
+    float: left;
+    margin-right: 2%;    
+    float: left;
+    padding: 8px;
+    padding-left: 5%;     
+    font-size: 1em;
+}
+header #regAuth div:hover{
+    padding: 8px;   
+    font-size: 1.02em;
+    color: #89c9fb;
+    -moz-transition: all.8s ease;
+    -webkit-transition: all.8s ease;
+    -o-transition: all.8s ease;
+    -ms-transition: all.8s ease;
+    transition: all.8s ease;
+} 
+
+
+
+
+/*Стилі для Slogan*/
+body #secondShow {
+    width: 100%;
+    height: 28vh;
+    border-top:  1px solid #e7ffff;
+    background-color: #FD7700;
+    
+}
+body #secondShow p{
+    position: relative;
+    text-align: center;
+    padding: 1%;
+    line-height: 4.5vh;
+    font-size: 6vh;
+    color: white;}
+
+header #one{   
+    text-align: center; 
+    font-size: 10vh;
+    color: white;
+    padding-top: 60vh;
+}
+header #two{    
+    text-align: center;  
+    line-height: 30vh;
+    font-size: 10vh;
+    color: white;  
+}
+
+
+
+
+
+/*Стилі для Footer*/
+footer {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #e4ecf7;
+    border-top:  1px solid #e7ffff;   
+}
+footer #social {
+    float: left;
+    width: 50%;
+}
+footer #social img {
+    position: relative;
+    width: 30px; 
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+footer #social a #instagram {
+    position: relative;
+    width: 30px; 
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+footer #rights {
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 1.1em;
+}
+
+
+
+
+/*СТИЛІ ДЛЯ ЦЕНТРАЛЬНОЇ ЧАСТИНИ*/
+body #line {border-top:  0.1vh solid #e7ffff;}
+
+body #thirdPart {
+    width: 100%;   
+    height: 100vh;    
+    }
+
+body #thirdPart #services{
+    width: 35%;
+    height: 100vh;
+    float: left;
+    background-color: #ffffff;
+    
+}
+body #thirdPart #services2{
+    width: 35%;
+    height: 100vh;
+    float: left;
+    background-color: #ffffff;
+    
+}
+body #thirdPart #news{
+    width: 30%;
+    height: 100vh;
+    float: right;
+    
+}
+body .serv1 .black .layer1 {
+    background-size: cover; 
+    position: relative;
+    height: 100%; 
+    width: 100%%;
+    opacity: 1;
+    z-index: 2;   
+}
+body .serv1 .black   {
+    position: relative;
+    float: left;
+    position: relative;
+    background-size: cover; 
+    height: 48.5vh; 
+    width: 98.5%; 
+    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    opacity: 1;     
+    
+    z-index: 3;
+}
+
+body .serv1 .black .layer1:hover { 
+    opacity: 0.7;
+}
+body .name {
+    
+    position: relative;
+    text-align: center;
+    padding: 1%;   
+    font-size: 10vh;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 25vh;  
+    z-index: 1     
+}
+
+
+
+
+body .serv1 .layer2 {
+    position: relative;
+    background-size: cover; 
+    height: 50vh; 
+    width: 100%; 
+}
+body .serv2 .black .layer1 {
+    background-size: cover; 
+    position: relative;
+    height: 100%; 
+    width: 100%%;
+    opacity: 1;
+    z-index: 2; 
+}
+body .serv2 .black   {
+    position: relative;
+    float: left;
+    position: relative;
+    background-size: cover; 
+    height: 48.5vh; 
+    width: 98.5%; 
+    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+
+}
+body .serv2 .black .layer1:hover {
+    opacity: .7;
+}
+
+body .serv3 .black .layer1 {
+    background-size: cover; 
+    position: relative;
+    height: 100%; 
+    width: 100%%;
+    opacity: 1;
+    z-index: 2; 
+}
+
+body .serv3 .black   {
+    position: relative;
+    float: right;
+    background-size: cover; 
+    height: 48.5vh; 
+    width: 98.5%; 
+    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    opacity: 1;
+    z-index: 3;
+}
+
+body .serv3 .black .layer1:hover {
+    opacity: .7;
+}
+body .serv4 .black {
+    float: right;
+    background-size: cover;      
+    position: relative;
+    height: 48.5vh; 
+    width: 98.5%; 
+    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+    
+}
+
+body .serv4 .black .layer1 {
+    background-size: cover; 
+    position: relative;
+    height: 100%; 
+    width: 100%%;
+    opacity: 1;
+    z-index: 2;   
+}
+body .serv4 .black .layer1:hover { 
+    opacity: .7;
+}
+
+/*СТИЛІ ДЛЯ КОЛОНКИ НОВИН*/
+body #thirdPart #news .fon{
+    width: 100%;
+    height: 50%;   
+    background-color: #ffffff;
+}
+
+
+
+body #thirdPart #news .fon .newsBlock{
+    width: 98%;
+    height: 98%;  
+    margin: 1%;
+    background-color: #E1E1E1;
+
+
+}
+
+body #thirdPart #news .fon .newsBlock .title{
+    font-size: 3vh;
+    padding: 5px;
+    background-color: #878787;
+    width: auto;
+    height: 5%;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+
+body #thirdPart #news .fon .newsBlock .imagesNews{
+    width: 98%;
+    height: 40%;  
+    margin: 1%; 
+}
+
+
+
+body #thirdPart #news .fon .newsBlock .text{
+    width: 96%;
+    height: 40%;  
+    margin: 2%; 
+    color: #272822;
+    font-size: 1.8vh;
+
+}
+
+body #thirdPart #news .fon .newsBlock .text .blockText{
+    width: 98%;
+    height: 40%;  
+    margin: 1%; 
+    color: #272822;
+    font-size: 1.8vh;
+}
+body #thirdPart #news .fon .newsBlock .text .aC{
+    width: 50%;
+    font-size: 1.7vh;   
+    padding-top: 0.3%;
+    padding-bottom: 0.6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #878787; 
+    border: 1px solid #878787; 
+}
+body #thirdPart #news .fon .newsBlock .text .aC:hover{
+    background-color: #abaaaa;
+    color: white;
+}
+body #thirdPart #news .articles .article .text .bC{
+    width: 50%;
+    font-size: 1.7vh;   
+    padding-top: 0.3%;
+    padding-bottom: 0.6%;
+    padding-left: 17%;
+    padding-right: 17%;
+    color: #878787; 
+    border: 1px solid #878787; 
+}
+body #thirdPart #news .articles .article .text .bC:hover{
+    background-color: #abaaaa;
+    color: white;
+}
+
+body #thirdPart #news .articles .article2 .text .bC{
+    width: 50%;
+    font-size: 1.7vh;   
+    padding-top: 0.3%;
+    padding-bottom: 0.6%;
+    padding-left: 17%;
+    padding-right: 17%;
+    color: #878787; 
+    border: 1px solid #878787; 
+}
+body #thirdPart #news .articles .article2 .text .bC:hover{
+    background-color: #abaaaa;
+    color: white;
+}
+
+body #thirdPart #news .articles {
+    width: 100%;
+    height: 50%;
+}
+
+body #thirdPart #news .articles .article{
+    width: 48.3%;
+    height: 97%;
+    float: left;
+    background-color: #E1E1E1;
+    margin-bottom: 3%;
+    margin-left: 1%;
+}
+
+
+body #thirdPart #news .articles .article2{
+    width: 48.3%;
+    height: 97%;
+    float: right;
+    background-color: #E1E1E1;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}
+
+
+
+
+/*СТОРІНКА about*/
+body #centerAbout{
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+body #centerAbout #blockAbout{
+    position: relative;
+    width: 68%;
+    height: 98vh;
+    float: left;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 0.25%;
+    margin-left: 0.5%;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    
+}
+
+body #centerAbout #blockAbout #titleAbout{
+    position: relative;
+    width: 90%;
+    height: auto;
+    float: center;
+    
+    padding: 3%;
+    text-align: center;
+    font-size: 2.5vh;
+    color: white;
+    font-family: "Arial Rounded MT Bold";
+    
+
+}
+
+body #centerAbout #blockAbout #textAbout{
+    position: relative;
+    width: 94%;
+    height: auto;
+    float: center;
+    
+    padding: 3%;
+    text-align: center;
+    font-size: 2.2vh;
+    color: white;
+}
+
+/*НОВИНИ about*/
+
+body #centerAbout #news{
+    width: 30%;
+    height: 100vh;
+    float: right;
+    
+}
+
+
+body #centerAbout #news .fon{
+    width: 100%;
+    height: 50%;   
+   
+}
+
+
+
+body #centerAbout #news .fon .newsBlock{
+    width: 98%;
+    height: 98%;  
+    margin: 1%;
+    background-color: #E1E1E1;
+
+
+}
+
+body #centerAbout #news .fon .newsBlock .title{
+    font-size: 3vh;
+    padding: 5px;
+    background-color: #878787;
+    width: auto;
+    height: 5%;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+
+body #centerAbout #news .fon .newsBlock .imagesNews{
+    width: 98%;
+    height: 40%;  
+    margin: 1%; 
+    float: center;
+}
+
+
+
+body #centerAbout #news .fon .newsBlock .text{
+    width: 96%;
+    height: 40%;  
+    margin: 2%; 
+    color: #272822;
+    font-size: 1.8vh;
+
+}
+
+body #centerAbout #news .fon .newsBlock .text .blockText{
+    width: 98%;
+    height: 40%;  
+    margin: 1%; 
+    color: #272822;
+    font-size: 1.8vh;
+}
+body #centerAbout #news .fon .newsBlock .text .aC{
+    width: 50%;
+    font-size: 1.7vh;   
+    padding-top: 0.3%;
+    padding-bottom: 0.6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #878787; 
+    border: 1px solid #878787; 
+}
+body #centerAbout #news .fon .newsBlock .text .aC:hover{
+    background-color: #abaaaa;
+    color: white;
+}
+body #centerAbout #news .articles .article .text .bC{
+    width: 50%;
+    font-size: 1.7vh;   
+    padding-top: 0.3%;
+    padding-bottom: 0.6%;
+    padding-left: 17%;
+    padding-right: 17%;
+    color: #878787; 
+    border: 1px solid #878787; 
+}
+body #centerAbout #news .articles .article .text .bC:hover{
+    background-color: #abaaaa;
+    color: white;
+}
+
+body #centerAbout #news .articles .article2 .text .bC{
+    width: 50%;
+    font-size: 1.7vh;   
+    padding-top: 0.3%;
+    padding-bottom: 0.6%;
+    padding-left: 17%;
+    padding-right: 17%;
+    color: #878787; 
+    border: 1px solid #878787; 
+}
+body #centerAbout #news .articles .article2 .text .bC:hover{
+    background-color: #abaaaa;
+    color: white;
+}
+
+body #centerAbout #news .articles {
+    width: 100%;
+    height: 50%;
+}
+
+body #centerAbout #news .articles .article{
+    width: 48.3%;
+    height: 97%;
+    float: left;
+    background-color: #E1E1E1;
+    margin-bottom: 3%;
+    margin-left: 1%;
+}
+
+
+body #centerAbout #news .articles .article2{
+    width: 48.3%;
+    height: 97%;
+    float: right;
+    background-color: #E1E1E1;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}
+
+/*ПРО НАС */
+body .imagesNews2{
+    position: relative;
+    width: 95%;
+    height: 20vh;
+    padding-left: 2.5%;
+    padding-right: .5%;
+    padding-top: 0.6vh;
+    float: center;
+}
+
+body #centerAbout #news .articles .article .text, body #centerAbout #news .articles .article2 .text{
+    padding: 4%;
+}
+
+
+
+/*feedback*/
+body #form{
+    width: 100%;
+    height: 100vh;
+}
+
+body #form #formCenter{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    float: right;
+}
+
+body #form #formCenter #formColor{
+    position: relative;
+    width: 28%;
+    height: 78%;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 3.5%;
+    margin-bottom: 6.5%;
+    margin-right: 36%;
+    margin-left: 36%;
+
+}
+
+body #form #formCenter #formColor #formCenter{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+body #form #formCenter #formColor #formCenter #big{
+    position: relative;
+    width: 88%;
+    height: 20%;
+    margin-top: 4%;
+    margin-left: 6%;
+    
+
+}
+body #form #formCenter #formColor #formCenter #big #textFeedback p{
+    position: relative;
+    color: white;
+    text-align: center;
+}
+body #form #formCenter #formColor #formCenter #big #textFeedback h1{
+    position: relative;
+    
+    color: white;
+    text-align: right;
+    font-size: 4vh;
+
+
+}
+
+body #form #formCenter #formColor #formCenter #name{
+    width: 70%;
+    height: 7%;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid white; 
+    color: white;
+
+}
+
+body #form #formCenter #formColor #formCenter #name:focus{
+    border: 1px solid #02EFFE; 
+    background-color: rgba(255, 255, 255, 0);
+}
+body #form #formCenter #formColor #formCenter #name:hover{
+    cursor: pointer;
+    border: 1px solid #02EFFE; 
+    background-color: rgba(255, 255, 255, 0);
+}
+
+body #form #formCenter #formColor #formCenter #email{
+    width: 70%;
+    height: 7%;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid white; 
+    color: white;
+
+}
+
+body #form #formCenter #formColor #formCenter #email:focus{
+    border: 1px solid #02EFFE; 
+    background-color: rgba(255, 255, 255, 0);
+}
+body #form #formCenter #formColor #formCenter #email:hover{
+    cursor: pointer;
+    border: 1px solid #02EFFE; 
+    background-color: rgba(255, 255, 255, 0);
+}
+
+body #form #formCenter #formColor #formCenter #subject{
+    width: 70%;
+    height: 7%;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid white; 
+    color: white;
+
+}
+
+body #form #formCenter #formColor #formCenter #subject:focus{
+    border: 1px solid #02EFFE; 
+    background-color: rgba(255, 255, 255, 0);
+}
+body #form #formCenter #formColor #formCenter #subject:hover{
+    cursor: pointer;
+    border: 1px solid #02EFFE; 
+    background-color: rgba(255, 255, 255, 0);
+}
+   
+body #form #formCenter #formColor #formCenter #message{
+    width: 70%;
+    height: 15%;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid white; 
+    color: white;
+}
+
+body #form #formCenter #formColor #formCenter #message:focus{
+    border: 1px solid #02EFFE; 
+    background-color: rgba(255, 255, 255, 0);
+}
+body #form #formCenter #formColor #formCenter #message:hover{
+    cursor: pointer;
+    border: 1px solid #02EFFE; 
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+body #form #formCenter #formColor #formCenter #done{
+    width: 70%;
+    height: 9%;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: red;
+    border: 1px solid red; 
+    color: white;
+}
+body #form #formCenter #formColor #formCenter #done:focus{
+    background-color: red;
+}
+body #form #formCenter #formColor #formCenter #done:hover{
+    cursor: pointer;
+    background-color: #bd0000;
+}
+
+body #form #formCenter #formColor #formCenter #messageShow{
+    width: 70%;
+    text-align: center;
+    color: red;
+}
+
+
