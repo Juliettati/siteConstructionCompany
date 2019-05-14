@@ -1,6 +1,4 @@
-<?php 
-  header('Content-type: text/html; charset=utf-8');
-?><!--  -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,16 +29,16 @@
 			 		return false;
 			 	} 
 			 	$.ajax ({
-			 		url: 'ajax/feedback.php',
+			 		url: '/ajax/feedback.php',
 			 		type: 'POST',
 			 		cache: false,
 			 		data: {'name': name, 'email': email, 'subject': subject, 'message': message},
 			 		dataType: 'html',
-			 		succcess: function (data){
-			 			if(data =='Повідомлення відправлено') {
-			 				$("#messageShow").html (data + "<div class='clear'><br></div>");
-			 				$('#messageShow').show(),
-			 			}
+			 		success: function (data){
+			 			
+			 				$('#messageShow').html (data + "<div class='clear'><br></div>");
+			 				$('#messageShow').show();
+			 			
 			 		}
 			 	});
 			 });

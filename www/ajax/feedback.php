@@ -3,7 +3,7 @@
 	$email = htmlspecialchars($_POST['email']);
 	$subject = htmlspecialchars($_POST['subject']);
 	$message = htmlspecialchars($_POST['message']);
-	if ($name == '' || $email == '' || $subjec == '' || $message =='') {
+	if ($name == '' || $email == '' || $subject == '' || $message =='') {
 		echo "Запам'ятайте всі поля";
 		exit;
 	}
